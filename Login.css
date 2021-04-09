@@ -1,0 +1,54 @@
+.Login {
+    display: grid;
+    background-color: black;
+    padding-bottom: 10%;
+}
+
+.Login > .Login_logo > .apple_logo {
+    height:250px;
+}
+
+..Login > .Login_logo > .apple_text {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.Login > div > img {
+    object-fit: contain;
+    display: flex;
+    height: 250px;
+}
+.Login > Button {
+    background-color: rgba(26, 180, 147, 0.658);
+    border-radius: 15px;
+    position: center;
+    margin-left: 625px;
+    margin-right: 625px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 200%;
+    font-size: medium;
+    display: flex;
+    object-fit: contain;
+
+}
+
+.Login > Button:hover {
+    transform: scale(1.03);
+    background-color: white;
+}
+
+.Login > .Login_logo > .apple_logo:hover {
+    transform: scale(1.02);
+}
+
+
+
+.Login > .Login_logo > .apple_text:hover {
+    transform: scale(1.02);
+}
+
+.Login > div {
+    display: flex;
+    flex-direction: column;
+}
